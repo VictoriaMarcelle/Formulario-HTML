@@ -1,0 +1,21 @@
+h1 {
+    text-align: center;
+}
+
+p {
+    text-align: justify;
+}
+
+#caixa-principal {
+    background-color: aliceblue;
+    color: black;
+    width: 500px;
+    padding-top: 10px;
+    padding-right: 30px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+
+img {
+    border-radius: 15px;
+}

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+
+<body>
+    <h1>Cadastro de novo usuário</h1>
+
+    <form>
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+
+            <label for="nome"> Nome:</label>
+            <input type="text" id="nome" placeholder="Digite seu primeiro nome"> <br><br>
+
+            <label for="sobrenome"> Sobrenome:</label>
+            <input type="text" id="sobrenome" placeholder="Digite seu sobrenome"> <br><br>
+
+            <label for="cpf"> CPF:</label>
+            <input type="text" id="cpf" inputmode="number" minlength="11" maxlength="14" pattern="^[0-9]{3}.?[0-9]{3}.?[0-9]{3}-?[0-9]{2}" placeholder="xxx.xxx.xxx-xx"> <br><br>
+
+            <label for="data de nascimento"> Data de nascimento:</label>
+            <input type="date" id="date"> <br>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Dados Cadastrais</legend>
+            <label for="email"> E-mail: </label>
+            <input type="email" id="email" placeholder="exemplo@mail.com"> <br><br>
+
+            <label for="senha"> Senha: </label>
+            <input type="password" id="senha" minlength="6" maxlength="16" pattern=".{6,12}" placeholder="6 a 12 caracteres"> <br>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Selecione seu sexo</legend>
+
+            <input type="radio" name="sexo" id="m ">
+            <label for="m ">Masculino</label> <br>
+
+            <input type="radio" name="sexo" id="f ">
+            <label for="f ">Feminino</label> <br>
+
+            <input type="radio" name="sexo" id="o ">
+            <label for="o ">Outro</label><br><br><br>
+
+            <small>
+                <input type="checkbox" name="quero receber"> Quero receber notificações e novidades no email<br>
+            </small>
+
+            <h2>
+                <button type="submit ">
+                    Enviar
+                </button>
+                <button type="reset ">
+                    Limpar
+                </button>
+            </h2>
+        </fieldset>
+
+    </form>
+
+</body>
+
+</html>
