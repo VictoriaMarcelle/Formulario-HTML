@@ -1,0 +1,48 @@
+body {
+  margin: 0px;
+  font-family: 'Roboto';
+  font-size: 18px;
+  background-color: whitesmoke;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2,
+p {
+  margin: 0;
+}
+
+.cartao {
+  padding: 16px;
+  background-color: rgb(154, 179, 194);
+  border-radius: 20px;
+  word-break: break-all;
+}
+
+.cartao-titulo {
+  text-align: center;
+}
+
+.cartao-conteudo {
+  display: flex;
+  margin-top: 16px;
+}
+
+.cartao-descricao {
+  margin-left: 16px;
+}
+
+li {
+  list-style-type: circle;
+}
+
+#lista-cartoes {
+  padding: 16px;
+  margin-top: 24px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 30px;
+  grid-row-gap: 30px;
+}
