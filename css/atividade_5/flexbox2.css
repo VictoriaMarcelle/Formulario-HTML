@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  min-height: 80vh;
+  background-color: rgb(0, 0, 0);
+  flex-direction: row;
+}
+
+.line {
+  display: flex;
+}
+
+.item {
+  flex: 1;
+  height: 180px;
+  margin: 20px;
+  background: rgb(255, 255, 255);
+  border: #c00404 solid 1px;
+  box-shadow: -13px 15px 0px 0px #c00404;
+}
