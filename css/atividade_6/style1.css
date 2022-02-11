@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(143, 150, 146);
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 20vh 70vh;
+  color: white;
+  text-align: center;
+  grid-gap: 14px;
+  padding: 20px 20px 20px 20px;
+}
+
+header {
+  background: black;
+  grid-row-start: 1;
+}
+
+main {
+  background: rgb(121, 4, 4);
+  grid-row-start: 2;
+}
