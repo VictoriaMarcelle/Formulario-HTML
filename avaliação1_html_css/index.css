@@ -7,11 +7,10 @@ body {
 
 .card {
     display: grid;
-   
 }
 
 header {
-    height: 200px;
+    height: 150px;
     background-color: white;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
@@ -57,11 +56,11 @@ button {
     color: white;
     padding: 10px;
     width: 100%;
+    margin-top: 5px;
     border: none;
     border-radius: 5px;
     font-weight: bold;
 }
-
 #why-us {
     background-color: hsl(179, 62%, 48%);
     color: white;
@@ -71,9 +70,19 @@ button {
 }
 
 @media screen and (max-width: 376px) {
+
+    .card {
+        margin: none;
+    }
+
     #card-content {
         display: block;
     }
+
+    header {
+        height: 200px;
+    }
+        
 
     #monthly-subs {
         border-radius: 0px;
