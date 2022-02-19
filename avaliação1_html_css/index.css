@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+
+body {
+    background-color: hsl(204, 43%, 93%);
+    font-family: Karla;
+} 
+
+.card {
+    display: grid;
+   
+}
+
+header {
+    height: 200px;
+    background-color: white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    font-size: small;
+    color: hsl(218, 22%, 67%);
+    padding: 30px;
+}
+
+h1 {
+    color: hsl(179, 62%, 42%) !important;
+}
+
+small {
+   color: hsl(71, 73%, 54%);
+   font-size: large;
+   font-weight: bold;
+}
+
+section {
+    flex: 1;
+    height: 200px;
+    padding: 16px;
+}
+
+#card-content {
+    display: flex;
+}
+
+#monthly-subs {
+    background-color: hsl(179, 62%, 42%);
+    color: white;
+    border-bottom-left-radius: 10px;
+    font-size: small;
+    padding: 30px;
+}
+
+span { 
+    font-size: x-large; 
+}
+
+button {
+    background: hsl(71, 73%, 54%);
+    color: white;
+    padding: 10px;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+#why-us {
+    background-color: hsl(179, 62%, 48%);
+    color: white;
+    border-bottom-right-radius: 10px;
+    font-size: small;
+    padding: 30px;
+}
+
+@media screen and (max-width: 376px) {
+    #card-content {
+        display: block;
+    }
+
+    #monthly-subs {
+        border-radius: 0px;
+    }
+
+    #why-us {
+        border-end-start-radius: 10px;
+    }
+}
