@@ -2,11 +2,23 @@ body{
     display: flex;
     align-items: center;
     flex-direction: column;
+    margin-top: 200px;
+    background-color: black;
 }
 
 button {
-    background-color:green;
     color: white;
     padding: 10px;
     font-size: larger;
+    border-radius: 6px;
+    border: none;
+    margin-top: 30px;
+}
+
+.lampada-acesa {
+    background-color:red;
+}
+
+.lampada-apagada {
+    background-color:green;
 }
